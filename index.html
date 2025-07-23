@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fly High Space Club - Capturing The Space Legacy of India</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fly High Space Club</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <!-- https://gilded-daifuku-c5cfed.netlify.app/ -->
-  <!-- Navbar -->
-  <div class="navbar">
-    <div class="logo">
-      <img src="logo-placeholder.png" alt="Fly High Logo">
-    </div>
-    <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Rocketry</a>
-      <a href="#">Space Info</a>
-      <a href="#">Join Us</a>
-    </div>
-  </div>
+  <div class="stars"></div>
 
-  <!-- Main Content -->
-  <div class="main-content">
-    <h1>Capturing the space legacy of <br><span class="orange">IN</span><span class="white">DI</span><span class="green">A</span></h1>
-    <p>
-      Explore the wonders of space, rocketry, and space technology of Indian Space Program! Whether you're a student, enthusiast, or curious learner, we bring you the latest updates, resources, and learning opportunities to fuel your passion for space.
+  <nav class="navbar">
+    <div class="logo">🚀 Fly High</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#missions">Missions</a></li>
+      <li><a href="#join">Join Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Preserving the Glory of<br>Indian Space Achievements<br><span style="color: var(--accent);">One Mission at a Time</span></h1>
+    <p class="hero-sub">
+      Learn about our digital archive.<br>
+      Discover a breathtaking collection showcasing the milestones of India’s journey beyond the sky. From Chandrayaan to Gaganyaan, explore stories of courage, innovation, and cosmic dreams that make our nation shine across the stars.
     </p>
-  </div>
+    <div class="cta-buttons">
+      <button class="cta">Explore Missions</button>
+      <button class="cta">Journey Through Space</button>
+    </div>
+  </section>
 
-  <!-- Footer -->
-  <div class="footer">
-    <p>© 2025 Fly High Space Club. All rights reserved.</p>
-    <p>Support our mission to spread space education: <a href="#">Donate Here</a></p>
-  </div>
+  <section class="stats" id="programs">
+    <div class="card">
+      <h2>15+</h2>
+      <p>Historic Missions</p>
+    </div>
+    <div class="card">
+      <h2>50+</h2>
+      <p>Satellite Launches</p>
+    </div>
+    <div class="card">
+      <h2>10+</h2>
+      <p>Active Programs</p>
+    </div>
+  </section>
 
+  <section class="info-cards" id="missions">
+    <div class="info-card">
+      <h3>Chandrayaan</h3>
+      <p>India’s iconic lunar exploration mission that made history with its precision and ambition.</p>
+      <button>Read More</button>
+    </div>
+    <div class="info-card">
+      <h3>Mangalyaan</h3>
+      <p>A successful Mars Orbiter Mission that stunned the world with its cost-effective brilliance.</p>
+      <button>Read More</button>
+    </div>
+    <div class="info-card">
+      <h3>Gaganyaan</h3>
+      <p>India’s first human spaceflight program aiming to send astronauts to low Earth orbit.</p>
+      <button>Read More</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
